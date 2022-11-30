@@ -1,0 +1,39 @@
+.row-grid {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    height: 100vh;
+}
+
+
+.column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.color-id {
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+}
+
+.color-id:focus-visible {
+    outline: none;
+}
+
+.color-locked {
+    padding-top: 50px;
+}
+
+.color-svg {
+    display: none;
+    width: 48px;
+    height: 48px;
+}
+
+.color-svg-show {
+    display: block;
+}
